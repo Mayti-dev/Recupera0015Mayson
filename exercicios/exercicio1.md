@@ -9,3 +9,14 @@ Crie um programa em Python que:
 5. Exiba:
 - nome do aluno
 - média calculada
+
+aluno  = input ("digite o nome do aluno:")
+
+
+def calcular_media (n1,n2):
+  media = (n1 + n2 ) / 2 
+  return calcular_media
+
+n1 = float(input("DIgite a primeira nota: "))
+n2 = float(input("digite a segunda nota:")) 
+print(" a media do", aluno,"é: ", media(n1,n2))
