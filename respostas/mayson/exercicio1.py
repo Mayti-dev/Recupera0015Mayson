@@ -1,10 +1,17 @@
-nome = input("digite seu nome: ") 
-nota1 = float(input("digite a primeira nota: "))
-nota2 = float(input("digite a segunda nota: "))
+numeros = []
 
-def calcular_media(n1, n2):
-    media = (n1 + n2) / 2
-    return media
+for i in range(5):
 
-media_final = calcular_media(nota1, nota2)
-print(f"{nome}, sua média é: {media_final:.2f}")
+    numero = float(input("Digite um número: "))
+
+    numeros.append(numero)
+
+
+def maior_numero(lista):
+
+    return max(lista)
+
+
+maior = maior_numero(numeros)
+
+print(f"O maior número informado foi: {maior}")
